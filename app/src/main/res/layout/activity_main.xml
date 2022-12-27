@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#C3C3D5"
+    tools:context="com.diphenylamyn.eintopf.MainActivity">
+    <Button
+        android:id="@+id/add_new_word"
+        android:text="@string/add_new_word"
+        android:onClick="addNewWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+    </Button>
+    <Button
+        android:id="@+id/show_list_en"
+        android:text="@string/showListOfEnWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showListEn"
+        app:layout_constraintTop_toBottomOf="@id/add_new_word">
+    </Button>
+    <Button
+        android:id="@+id/show_list_de"
+        android:text="@string/showListOfDeWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showListDe"
+        app:layout_constraintTop_toBottomOf="@id/show_list_en">
+    </Button>
+    <Button
+        android:id="@+id/credits"
+        android:text="@string/credits"
+        android:onClick="creditsClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="11sp">
+    </Button>
+</androidx.constraintlayout.widget.ConstraintLayout>

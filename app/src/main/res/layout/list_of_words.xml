@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#C3C3D5">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_title"
+        android:hint="@string/list_title"
+        android:text="@string/list_title"
+        android:layout_alignParentTop="true">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/list_title"
+        android:layout_above="@+id/reset"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/word_list"
+            android:text="">
+        </TextView>
+    </ScrollView>
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:onClick="reset"
+        android:text="@string/reset_the_list"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/goBack">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goBack"
+        android:onClick="goBack"
+        android:text="←"
+        android:layout_alignParentBottom="true">
+    </Button>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Eintopf</string>
+    <string name="add_new_word">Добавить новое слово в список</string>
+    <string name="showListOfEnWords">Английские слова</string>
+    <string name="showListOfDeWords">Немецкие слова</string>
+    <string name="get_rnd_word">Слуйчаное слово из списка</string>
+    <string name="credits">Создатель</string>
+    <string name="title">Какое слово Вы хотели бы добавить?</string>
+    <string name="enterWord">Введите слово и его множественное число</string>
+    <string name="enter">Ввести!</string>
+    <string name="en">Английский</string>
+    <string name="de">Немецкий</string>
+    <string name="enter_translation">Введите перевод</string>
+    <string name="en_selected">Вы выбрали английский!</string>
+    <string name="de_selected">Вы выбрали немецкий!</string>
+    <string name="cancel">Отменить</string>
+    <string name="choose_lang">Выберите язык!</string>
+    <string name="done">Завершено!</string>
+    <string name="no_word_warn">Введите слово!</string>
+    <string name="list_title">Заголовок</string>
+    <string name="title_text_en">Список английских слов</string>
+    <string name="title_text_de">Список немецких слов</string>
+    <string name="reset_the_list">Сбросить список</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="appWidgetUpdate">Обновить</string>
+    <string name="appwidget_text"> </string>
+    <string name="configTextview">Настройте виджет!</string>
+    <string name="configRgHeader">Выберите язык!</string>
+    <string name="configTextviewEn">Английский</string>
+    <string name="configTextviewDe">Немецкий</string>
+    <string name="applyConfigBtn">Применить</string>
+</resources>

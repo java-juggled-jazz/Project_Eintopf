@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Eintopf</string>
+    <string name="add_new_word">Add new word to list</string>
+    <string name="showListOfEnWords">Show list of English words</string>
+    <string name="showListOfDeWords">Show list of German words</string>
+    <string name="get_rnd_word">Get random word from list</string>
+    <string name="credits">The credits</string>
+    <string name="title">What word would you like to add?</string>
+    <string name="enterWord">Enter a word and its plural form through the comma if it exist</string>
+    <string name="enter">Enter!</string>
+    <string name="en">English</string>
+    <string name="de">German</string>
+    <string name="enter_translation">Enter a translation</string>
+    <string name="en_selected">You\'ve selected English!</string>
+    <string name="de_selected">You\'ve selected German!</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_lang">Choose a language!</string>
+    <string name="done">Done!</string>
+    <string name="no_word_warn">Enter a word!</string>
+    <string name="list_title">Title</string>
+    <string name="title_text_en">The list of English words</string>
+    <string name="title_text_de">The list of German words</string>
+    <string name="reset_the_list">Reset the list</string>
+    <string name="add_widget">Add widget</string>
+    <string name="appWidgetUpdate">Update</string>
+    <string name="appwidget_text"> </string>
+    <string name="configTextview">Configure your widget!</string>
+    <string name="configRgHeader">Choose the language!</string>
+    <string name="configTextviewEn">English</string>
+    <string name="configTextviewDe">German</string>
+    <string name="applyConfigBtn">Apply</string>
+</resources>
