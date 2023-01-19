@@ -1,0 +1,2 @@
+# Project_Eintopf
+This is my first big Android project. I don't know if there are another apps for learning foreign words like mine. I haven't found any apps with widgets showing words from foreign language, so I've decided to make my own app. With my app you can learn German and English (my native language is Russian), add new words, reset lists of words and make widget on your home screen. Of course, I'll improve my app, I have some ideas. You can tell me about your ideas for this app or about error and bugs. 
